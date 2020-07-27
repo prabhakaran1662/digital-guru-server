@@ -18,5 +18,6 @@ public class UserController {
 	public Users getUserName(@RequestParam String name) {
 		Users users = usersService.getByName(name);
 		return users;
+	
 	}
 }
